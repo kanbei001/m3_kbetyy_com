@@ -1,0 +1,48 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>404</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <!-- CSS: implied media=all -->
+    <link rel="stylesheet" href="/404/css/404style.css">
+    <link rel="stylesheet" href="/404/css/404blue.css">
+    <script src="/404/js/jquery-404.js"></script>
+    <script src="/404/js/404script.js"></script>
+    <style type="text/css">
+    .STYLE1 {
+        color: #FF0000
+    }
+    </style>
+</head>
+
+<body>
+    <div id="error-container">
+        <!--         <div id="error">
+            <div id="pacman"></div>
+        </div> -->
+        <div id="container">
+            <div id="title">
+                <h1>对不起, 你访问的页面不存在!</h1>
+                <img src="/404/images/404.png" style="width: 80%;display: block;margin: 10px auto;" alt="">
+            </div>
+            <div id="content">
+                <div class="right">
+                    <ul class="links">
+                        <li><a href="/">回到首页</a></li>
+                        <ul>
+                            <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div id="footer">
+                CopyRight © 2017 成都西南儿童医院.
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

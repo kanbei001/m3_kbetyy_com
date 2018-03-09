@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<title>{dede:field.typename/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description/}" />
+<link href="{dede:global.cfg_templets_skin/}/css/2015.css" rel="stylesheet" type="text/css" />
+<script src="{dede:global.cfg_templets_skin/}/js/touchslide.1.1.js"></script>
+</head>
+<body class="zg_body">
+<div id="fixedwrapper">
+  <div class="top-img"><a href="tel:02884319120"><img src="{dede:global.cfg_templets_skin/}/images/toptel20170214.gif" alt=""></a></div>
+</div>
+<div class="zgheader" id="zgheader"><a href="/" class="zgx1"></a><a href="/" class="zgx2"></a><a href="tel:02884319120" class="zgx3" ></a></div>
+<div class="zj_banner"> <a href=""><img src="{dede:global.cfg_templets_skin/}/images/zj_pic.jpg" /></a> </div>
+<div class="zg_zhuanjia">
+  <div class="zgzj_lxb clear">
+    <p class="zgzjl_p1">今日仅剩<span class="zgzj_me"></span>个专家名额</p>
+    <a href="tel:02884319120"><img src="{dede:global.cfg_templets_skin/}/images/x_dianhua.gif" alt=""></a> </div>
+  <div class="zgzj_con">
+    <div class="zgzj_text">增高专家团成员</div>
+    <ul class="zjul">
+      {dede:list pagesize="10"}
+      <li> <a href="[field:arcurl/]" title="[field:title/]" class="fl"><img src="[field:litpic/]" /></a>
+        <div class="zcr">
+          <div class="zcrh">[field:title/]<span>[field:shorttitle/]</span></div>
+          <div class="zjms">
+            <p>[field:infos/]</p>
+          </div>
+          <a href="[field:arcurl/]" title="[field:title/]" class="zjlr">>了解更多</a></div>
+      </li>
+      {/dede:list}
+    </ul>
+  </div>
+  <div class="zg_list_page">
+    <ul>
+      {dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="5"/}
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>
+{dede:include filename="footer.htm"/} 
+<script src="{dede:global.cfg_templets_skin/}/js/jquery.js"></script> 
+<script src="{dede:global.cfg_templets_skin/}/js/style.js"></script>
+</body>
+</html>

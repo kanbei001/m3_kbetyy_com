@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="description" content="{dede:global.cfg_description/}" />
+<link href="{dede:global.cfg_templets_skin/}/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templets_skin/}/css/2015.css" rel="stylesheet" type="text/css" />
+<script src="{dede:global.cfg_templets_skin/}/js/touchslide.1.1.js"></script>
+</head>
+
+<body class="zg_body">
+{dede:include filename="header.htm"/}
+{dede:include filename="common_nav.htm"/}
+<div class="zgetzx"></div>
+<div class="zgetzx1 zgetzxa">
+  <div class="zgetzx2"> <img src="{dede:global.cfg_templets_skin/}/images/x_zgjc.jpg" alt=""> </div>
+  <div class="zgetzx3">
+    {dede:channelartlist typeid="6" type="son"}
+    <a href="{dede:field.typeurl/}">{dede:field.typename/}</a>
+    {/dede:channelartlist}
+    <a href="">更多咨询></a>
+   </div>
+</div>
+<div class="zgetzx1 zgetzxa">
+  <div class="zgetzx2"> <img src="{dede:global.cfg_templets_skin/}/images/x_zgrq.jpg" alt=""> </div>
+  <div class="zgetzx3">
+    {dede:channelartlist typeid="10" type="son"}
+    <a href="{dede:field.typeurl/}">{dede:field.typename/}</a>
+    {/dede:channelartlist}
+    <a class="zgetzx6" href="">更多咨询></a>
+  </div>
+</div>
+<div class="zgetzx1">
+  <div class="zgetzx2"> <img src="{dede:global.cfg_templets_skin/}/images/x_zgjb.jpg" alt=""> </div>
+  <div class="zgetzx3">
+    {dede:channelartlist typeid="16" type="son"}
+    <a href="{dede:field.typeurl/}">{dede:field.typename/}</a>
+    {/dede:channelartlist}
+    <a href="" class="zgetzx6">更多咨询></a>
+  </div>
+</div>
+<!--新增板块开始-->
+<div class="tianjia">
+  <div class="tj-biaoti1"></div>
+  <ul class="children-float-left">
+    <li> <a href=""><img src="{dede:global.cfg_templets_skin/}/images/tianjia1.jpg" alt=""></a>
+      <p>超声骨龄评估</p>
+    </li>
+    <li> <a href=""><img src="{dede:global.cfg_templets_skin/}/images/tianjia2.jpg" alt=""></a>
+      <p>身体常规检查</p>
+    </li>
+    <li> <a href=""> <img src="{dede:global.cfg_templets_skin/}/images/tianjia3.jpg" alt=""></a>
+      <p>激素水平检测</p>
+    </li>
+    <li> <a href=""> <img src="{dede:global.cfg_templets_skin/}/images/tianjia4.jpg" alt=""></a>
+      <p>颅部MRI检查</p>
+    </li>
+    <li> <a href=""> <img src="{dede:global.cfg_templets_skin/}/images/tianjia5.jpg" alt=""></a>
+      <p>染色体核分型</p>
+    </li>
+    <li> <a href=""> <img src="{dede:global.cfg_templets_skin/}/images/tianjia6.jpg" alt=""></a>
+      <p>其他辅助检查</p>
+    </li>
+  </ul>
+</div>
+<div class="box3">
+  <div class="tj-biaoti2"></div>
+  <div class="box3_1">
+    <ul class="children-float-left">
+      <li><a href=""><img src="{dede:global.cfg_templets_skin/}/images/tp14.jpg"></a></li>
+      <li><a href=""><img src="{dede:global.cfg_templets_skin/}/images/tp15.jpg"></a></li>
+      <li><a href=""><img src="{dede:global.cfg_templets_skin/}/images/tp16.jpg"></a></li>
+      <li><a href=""><img src="{dede:global.cfg_templets_skin/}/images/tp17.jpg"></a></li>
+    </ul>
+  </div>
+  <div class="box3_2">
+    <div class="box3_2l">
+      <h1>脑垂体激活促生长体系</h1>
+      <p>最大限度开发<br>
+        神经经络-脑垂体-肾经-骨骼生长轴</p>
+      <div class="box3_xqck"> <a href="">详情查看>>> </a> </div>
+    </div>
+    <div class="box3_2r">
+      <div class="box3_2r_t">
+        <ul class="children-float-left">
+          <li><a href=""><img src="{dede:global.cfg_templets_skin/}/images/tp18.jpg"></a></li>
+          <li><a href=""><img src="{dede:global.cfg_templets_skin/}/images/tp19.jpg"></a></li>
+        </ul>
+      </div>
+      <div class="box3_2r_x"><a href=""> <img src="{dede:global.cfg_templets_skin/}/images/tp20.jpg"></a> </div>
+    </div>
+  </div>
+</div>
+
+<!--新增板块结束-->
+<div class="index_ad clear"> <a href=""><img src="{dede:global.cfg_templets_skin/}/images/index_ad.jpg"></a> </div>
+<div class="x_zgaltt"></div>
+<div class="zga_con" id="zga_con">
+  <div class="bd">
+    <ul>
+      {dede:arclist typeid="4" row="5" flag="p"}
+      <li> <a href="[field:arcurl/]"><img src="[field:litpic/]"></a>
+        <p class="zgac_p1">[field:fulltitle/]</p>
+        <p class="zgac_p2"><span>导读：</span>[field:infos/]…<a href="[field:arcurl/]">[详细]</a></p>
+      </li>
+      {/dede:arclist}
+    </ul>
+  </div>
+  <div class="hd">
+    <ul>
+    </ul>
+  </div>
+</div>
+<p class="zgac_p3"><a href="{dede:type typeid="4"}[field:typeurl/]{/dede:type}">查看更多案例</a><a href="tel:02884319120" style="background: #ffa344;">拨打免费电话</a></p>
+<script type="text/javascript">
+    TouchSlide({
+        slideCell: "#zga_con",
+        titCell: ".hd ul",
+        mainCell: ".bd ul",
+        effect: "left",
+        autoPlay: true,
+        autoPage: true,
+        interTime: 10000,
+    });
+    </script>
+<div class="index_ad clear"> <a href=""><img src="{dede:global.cfg_templets_skin/}/images/x_xnzgzx1.jpg"></a> </div>
+<div class="zgmyt clear"></div>
+<div class="zga_con" id="zga_con2">
+  <div class="bd">
+    <ul>
+      {dede:arclist typeid="2" flag="p"}
+      <li>
+        <div class="item"> <a href="[field:arcurl/]" class="fl"><img src="[field:litpic/]" /></a>
+          <div class="zr">
+            <p><a href="[field:arcurl/]"><b>[field:title/]</b><span>[field:shorttitle/]</span></a></p>
+
+            <div class="ZJ_jianjie">[field:infos/]…<span><a href="[field:arcurl/]">[详细]</a></span></div>
+            <p><a href="" class="ZJ_p3b">预约挂号</a></p>
+          </div>
+        </div>
+      </li>
+      {/dede:arclist}
+    </ul>
+  </div>
+  <div class="hd">
+    <ul>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript">
+    TouchSlide({
+        slideCell: "#zga_con2",
+        titCell: ".hd ul",
+        mainCell: ".bd ul",
+        effect: "left",
+        autoPlay: true,
+        autoPage: true,
+        interTime: 10000,
+    });
+</script>
+{dede:include filename="footer.htm"/}
+</body>
+</html>
